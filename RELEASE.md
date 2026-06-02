@@ -84,6 +84,7 @@ The script checks required files, README entry points, SKILL on-demand loading, 
 - Public install URLs in README resolve before announcement. If the GitHub repository is not public yet, treat the package as local/pre-release even if the content passes validation.
 - The local release repo is initialized, committed intentionally, and clean at the release cut.
 - The README clone URL matches the intended public repository.
+- `git ls-remote origin` succeeds before announcing the GitHub install command.
 - New field packs follow `CONTRIBUTING.md`.
 - New examples include a weak story, diagnosis, calibrated story, and evidence boundary.
 - New evaluation scenarios include must-pass criteria.

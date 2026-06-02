@@ -22,6 +22,7 @@ All notable changes to `good-story` are tracked here.
 - Smoke-test source policy now rejects abstract-only evidence and requires a full-text basis note for each case.
 - Product validation now checks evaluation coverage, real-material full-text basis notes, the maturity audit file, agent metadata, local markdown links, README assets, release hygiene files, and Chinese terminology consistency.
 - Mature criteria now include measurable cross-field and non-author use evidence instead of only a general repeated-use statement.
+- Release documentation now treats a failing `git ls-remote origin` as a public-announcement blocker.
 
 ## 0.4.0 - Scale-Use Documentation - 2026-06-02
 

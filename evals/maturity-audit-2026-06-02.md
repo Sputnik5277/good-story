@@ -46,6 +46,16 @@ Release candidate criteria are currently met:
 - No release blocker was observed.
 - Watch items are documented in `evals/fresh-session-run-2026-06-02.md`.
 
+## Publication Gate
+
+Local release repository status on 2026-06-02:
+
+- Local git repository exists on `main`.
+- `origin` is configured as `https://github.com/Rimagination/good-story.git`.
+- `git ls-remote origin` currently returns `Repository not found`.
+
+Public announcement should wait until the GitHub repository exists and the README install URL can be cloned.
+
 ## Mature Gaps
 
 Before calling this Mature:
