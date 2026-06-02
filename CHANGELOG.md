@@ -20,6 +20,8 @@ All notable changes to `good-story` are tracked here.
 
 ### Changed
 
+- Rebuilt the README hero image as an integrated banner matching the `good-question` visual system, and updated README asset paths.
+- Updated the README status badge from Release Candidate to Mature.
 - Published the public GitHub repository at `https://github.com/Rimagination/good-story` and updated release status docs accordingly.
 - README, release checklist, roadmap, evaluation guide, and product validation now include the real-material smoke-test file.
 - README, release checklist, evaluation guide, and product validation now include the fresh-session runbook.

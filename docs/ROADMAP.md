@@ -16,7 +16,7 @@ Evidence:
 - Static product validation script passes.
 - `evals/fresh-session-run-2026-06-02.md` records 9 regression scenarios and 6 real-material smoke tests passing in fresh sessions.
 
-Missing before Mature:
+Still To Collect:
 
 - Keep collecting direct user-trial evidence beyond the public reviewer cases.
 - Record failures, revisions, and user feedback from actual use.

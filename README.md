@@ -1,14 +1,14 @@
 # Good Story
 
 <picture>
-  <source srcset="assets/good-story-banner-1280x360.webp" type="image/webp">
-  <img src="assets/good-story-banner-1280x360.png" alt="Good Story hero" width="1280" height="360" decoding="async">
+  <source srcset="assets/good-story-integrated-banner-1280.webp" type="image/webp">
+  <img src="assets/good-story-integrated-banner-1280.png" alt="Good Story hero" width="1280" decoding="async">
 </picture>
 
 <p align="center">
   <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-1F5E4A?style=for-the-badge">
   <img alt="Hosts Codex and Claude Code" src="https://img.shields.io/badge/Hosts-Codex%20%7C%20Claude%20Code-D9A441?style=for-the-badge">
-  <img alt="Status Release Candidate" src="https://img.shields.io/badge/Status-Release%20Candidate-6B8F71?style=for-the-badge">
+  <img alt="Status Mature" src="https://img.shields.io/badge/Status-Mature-6B8F71?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -263,8 +263,8 @@ good-story/
   agents/
     openai.yaml
   assets/
-    good-story-banner-1280x360.webp
-    good-story-banner-1280x360.png
+    good-story-integrated-banner-1280.webp
+    good-story-integrated-banner-1280.png
   examples/
     README.md
     before-after.md
@@ -562,8 +562,8 @@ good-story/
   agents/
     openai.yaml
   assets/
-    good-story-banner-1280x360.webp
-    good-story-banner-1280x360.png
+    good-story-integrated-banner-1280.webp
+    good-story-integrated-banner-1280.png
   examples/
     README.md
     before-after.md
