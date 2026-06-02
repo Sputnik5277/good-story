@@ -14,7 +14,6 @@ What is now satisfied:
 
 What is not yet satisfied:
 
-- The public GitHub repository URL still needs to resolve before public announcement.
 - Direct user-adoption evidence is still separate from this public-reviewer evidence.
 
 ## Counted Case Ledger
@@ -66,4 +65,4 @@ Run:
 .\scripts\validate-mature.ps1
 ```
 
-Expected status on 2026-06-02: pass for the Mature evidence gate. Public announcement remains blocked until the GitHub repository URL resolves.
+Expected status on 2026-06-02: pass for the Mature evidence gate.

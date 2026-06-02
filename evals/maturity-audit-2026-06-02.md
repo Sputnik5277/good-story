@@ -4,9 +4,9 @@ This audit records whether `good-story` is ready to publish and whether the Matu
 
 ## Current Decision
 
-Status: **Mature evidence gate satisfied; public announcement blocked until the repository URL resolves**.
+Status: **Publicly released; Mature evidence gate satisfied**.
 
-The skill has enough recorded evidence to satisfy the project-defined Mature evidence gate under the public-external-reviewer alternative: 15+ passed cases across 5+ fields and 3 public external reviewer records. It should still not be publicly announced until the GitHub repository URL used by README install commands resolves. Direct user-adoption evidence remains useful but is now tracked separately from public reviewer evidence.
+The skill has enough recorded evidence to satisfy the project-defined Mature evidence gate under the public-external-reviewer alternative: 15+ passed cases across 5+ fields and 3 public external reviewer records. The GitHub repository URL used by README install commands now resolves. Direct user-adoption evidence remains useful but is tracked separately from public reviewer evidence.
 
 ## Evidence Already Present
 
@@ -61,15 +61,14 @@ Local release repository status on 2026-06-02:
 
 - Local git repository exists on `main`.
 - `origin` is configured as `https://github.com/Rimagination/good-story.git`.
-- `git ls-remote origin` currently returns `Repository not found`.
+- `git ls-remote origin` resolves the public repository.
 
 Public announcement should wait until the GitHub repository exists and the README install URL can be cloned.
 
 ## Mature Gaps
 
-Before public Mature announcement:
+After public Mature announcement:
 
-- Publish the public repository URL used in README install commands.
 - Record at least 15 real-use or independent fresh-session cases across at least 5 fields. Current ledger: met.
 - Include at least 3 cases from users or reviewers other than the author. Current ledger: met through public external reviewer records.
 - Confirm users can choose templates without extra coaching.
@@ -93,7 +92,7 @@ Before public Mature announcement:
 Recommended:
 
 ```text
-good-story has satisfied its Mature evidence gate for evidence-faithful scientific storytelling: static checks pass, 15 fresh-session or real-material cases pass across multiple fields, and 3 public external reviewer records support the same story-calibration failure modes. Public announcement still waits on the repository URL.
+good-story has satisfied its Mature evidence gate for evidence-faithful scientific storytelling: static checks pass, 15 fresh-session or real-material cases pass across multiple fields, 3 public external reviewer records support the same story-calibration failure modes, and the public repository URL resolves.
 ```
 
 Avoid:

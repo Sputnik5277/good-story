@@ -20,6 +20,7 @@ All notable changes to `good-story` are tracked here.
 
 ### Changed
 
+- Published the public GitHub repository at `https://github.com/Rimagination/good-story` and updated release status docs accordingly.
 - README, release checklist, roadmap, evaluation guide, and product validation now include the real-material smoke-test file.
 - README, release checklist, evaluation guide, and product validation now include the fresh-session runbook.
 - README, roadmap, release checklist, evaluation guide, maturity audit, and product validation now reflect release-candidate evidence and the later Mature evidence gate.

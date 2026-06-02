@@ -4,7 +4,7 @@ This roadmap defines what remains before `good-story` can be called a mature bro
 
 ## Current Status
 
-Status: **Mature evidence gate satisfied; public announcement blocked until the repository URL resolves**.
+Status: **Publicly released; Mature evidence gate satisfied**.
 
 Evidence:
 
@@ -18,7 +18,6 @@ Evidence:
 
 Missing before Mature:
 
-- Publish the public repository URL used in README install commands.
 - Keep collecting direct user-trial evidence beyond the public reviewer cases.
 - Record failures, revisions, and user feedback from actual use.
 
