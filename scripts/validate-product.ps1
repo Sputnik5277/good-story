@@ -133,6 +133,7 @@ Write-Output 'Checking required product files...'
   'evals\maturity-audit-2026-06-02.md',
   'evals\mature-evidence-2026-06-02.md',
   'evals\external-feedback-template.md',
+  'evals\public-external-feedback-cases.md',
   'scripts\validate-product.ps1',
   'scripts\validate-mature.ps1'
 ) | ForEach-Object { Assert-File -RelativePath $_ }
@@ -152,6 +153,7 @@ Write-Output 'Checking README product entry points...'
   'evals/fresh-session-run-2026-06-02.md',
   'evals/maturity-audit-2026-06-02.md',
   'evals/mature-evidence-2026-06-02.md',
+  'evals/public-external-feedback-cases.md',
   'scripts/validate-product.ps1',
   'scripts/validate-mature.ps1',
   'RELEASE.md',

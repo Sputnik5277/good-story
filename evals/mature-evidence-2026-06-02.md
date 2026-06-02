@@ -4,17 +4,18 @@ This ledger records the evidence for the Mature threshold. It separates author-c
 
 ## Current Decision
 
-Status: **Not Mature yet**.
+Status: **Mature evidence gate satisfied under the public-external-reviewer alternative**.
 
 What is now satisfied:
 
 - At least 15 recorded real-material or independent fresh-session cases are present.
 - The cases span at least 5 fields.
+- 3 public external reviewer-feedback cases are verified.
 
 What is not yet satisfied:
 
-- 0 of 3 required non-author user or reviewer cases are verified.
 - The public GitHub repository URL still needs to resolve before public announcement.
+- Direct user-adoption evidence is still separate from this public-reviewer evidence.
 
 ## Counted Case Ledger
 
@@ -35,10 +36,15 @@ What is not yet satisfied:
 | R4 | Social science | Real-material fresh session | Author-coordinated independent agent | Pass | `evals/fresh-session-run-2026-06-02.md` |
 | R5 | Biomedical research | Real-material fresh session | Author-coordinated independent agent | Pass | `evals/fresh-session-run-2026-06-02.md` |
 | R6 | Earth system science | Real-material fresh session | Author-coordinated independent agent | Pass | `evals/fresh-session-run-2026-06-02.md` |
+| E1 | Meta-research | Public external reviewer feedback | External reviewer record | Pass | `evals/public-external-feedback-cases.md` |
+| E2 | Microbiology / cell biology | Public external reviewer feedback | External reviewer record | Pass | `evals/public-external-feedback-cases.md` |
+| E3 | Neuroscience | Public external reviewer feedback | External reviewer record | Pass | `evals/public-external-feedback-cases.md` |
 
 ## External User Or Reviewer Evidence
 
-No non-author user or reviewer case is verified yet.
+Three public external reviewer cases are verified in `evals/public-external-feedback-cases.md`.
+
+These cases count as reviewer evidence, not direct user-trial evidence.
 
 To count here, a case must include:
 
@@ -50,7 +56,7 @@ To count here, a case must include:
 - the strongest useful move and the biggest miss;
 - any change made afterward.
 
-Do not convert author-created prompts, author-scored runs, or simulated reviewers into external evidence.
+Do not convert author-created prompts, author-scored runs, or simulated reviewers into external evidence. Public reviewer records may count only when they include linkable third-party feedback and author-side revision signals.
 
 ## Mature Gate
 
@@ -60,4 +66,4 @@ Run:
 .\scripts\validate-mature.ps1
 ```
 
-Expected status on 2026-06-02: fail, because external user/reviewer evidence is missing.
+Expected status on 2026-06-02: pass for the Mature evidence gate. Public announcement remains blocked until the GitHub repository URL resolves.

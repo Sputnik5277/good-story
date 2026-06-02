@@ -106,4 +106,4 @@ Use these labels:
 - **Release candidate:** eval scenarios pass and the real-material smoke tests have been checked in fresh sessions.
 - **Mature:** `scripts/validate-mature.ps1` passes, including 15 passed cases across at least 5 fields and 3 verified non-author user or reviewer cases.
 
-Current status: Release candidate. Current target: publish once the public repository URL resolves, then move toward Mature through repeated real-user and cross-field evidence.
+Current status: Mature evidence gate satisfied. Current target: publish once the public repository URL resolves, then continue collecting direct real-user evidence.

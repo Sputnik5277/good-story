@@ -9,6 +9,7 @@ All notable changes to `good-story` are tracked here.
 - `.gitignore` and `.gitattributes` for release repository hygiene and binary asset handling.
 - `evals/mature-evidence-2026-06-02.md` to count Mature evidence separately from release-candidate evidence.
 - `evals/external-feedback-template.md` for non-author user or reviewer evidence.
+- `evals/public-external-feedback-cases.md` with three public reviewer/author-response cases from eLife.
 - `scripts/validate-mature.ps1` for the stricter Mature gate.
 - `evals/fresh-session-runbook.md` with fresh-session setup, scoring labels, release blockers, and baseline record format.
 - `evals/fresh-session-run-2026-06-02.md` recording fresh-session results for 9 regression scenarios and 6 real-material smoke tests.
@@ -21,12 +22,12 @@ All notable changes to `good-story` are tracked here.
 
 - README, release checklist, roadmap, evaluation guide, and product validation now include the real-material smoke-test file.
 - README, release checklist, evaluation guide, and product validation now include the fresh-session runbook.
-- README, roadmap, release checklist, evaluation guide, maturity audit, and product validation now reflect Release candidate status.
+- README, roadmap, release checklist, evaluation guide, maturity audit, and product validation now reflect release-candidate evidence and the later Mature evidence gate.
 - Smoke-test source policy now rejects abstract-only evidence and requires a full-text basis note for each case.
 - Product validation now checks evaluation coverage, real-material full-text basis notes, the maturity audit file, agent metadata, local markdown links, README assets, release hygiene files, and Chinese terminology consistency.
 - Mature criteria now include measurable cross-field and non-author use evidence instead of only a general repeated-use statement.
 - Release documentation now treats a failing `git ls-remote origin` as a public-announcement blocker.
-- Mature evidence now records 15 passed independent/fresh-session cases across more than 5 fields, while correctly leaving the external user/reviewer gate unmet.
+- Mature evidence now records 15 passed independent/fresh-session cases across more than 5 fields and 3 public external reviewer cases.
 
 ## 0.4.0 - Scale-Use Documentation - 2026-06-02
 

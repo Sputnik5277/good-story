@@ -4,7 +4,7 @@ This roadmap defines what remains before `good-story` can be called a mature bro
 
 ## Current Status
 
-Status: **Release candidate, not yet Mature**.
+Status: **Mature evidence gate satisfied; public announcement blocked until the repository URL resolves**.
 
 Evidence:
 
@@ -19,12 +19,12 @@ Evidence:
 Missing before Mature:
 
 - Publish the public repository URL used in README install commands.
-- Collect and verify at least 3 non-author user or reviewer cases.
+- Keep collecting direct user-trial evidence beyond the public reviewer cases.
 - Record failures, revisions, and user feedback from actual use.
 
 ## Release Candidate Criteria
 
-`good-story` is currently Release candidate because:
+`good-story` passed the release-candidate threshold because:
 
 - `scripts/validate-product.ps1` passes.
 - All scenarios in `evals/scenarios.md` pass in fresh sessions.
@@ -37,7 +37,7 @@ Missing before Mature:
 `good-story` can be called Mature when:
 
 - At least 15 recorded real-use or independent fresh-session cases pass across at least 5 fields. Current ledger: met.
-- At least 3 cases come from users or reviewers other than the author. Current ledger: not met.
+- At least 3 cases come from users or reviewers other than the author. Current ledger: met through public external reviewer records.
 - Users can pick a template and get useful output without extra coaching.
 - Field calibration prevents wrong-domain overclaiming in unfamiliar materials.
 - The evaluation suite catches regressions after meaningful edits.

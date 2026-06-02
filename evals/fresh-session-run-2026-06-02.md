@@ -49,15 +49,15 @@ None.
 - `evals/real-material-smoke-tests.md`
 - `scripts/validate-mature.ps1`
 - `scripts/validate-product.ps1`
-- README, release, evaluation, roadmap, maturity, and changelog files updated to reflect Release candidate evidence.
+- README, release, evaluation, roadmap, maturity, and changelog files updated to reflect release-candidate evidence and the later Mature evidence gate.
 
 ## Decision
 
-`good-story` meets the project-defined **Release candidate** threshold for evaluation evidence:
+`good-story` meets the project-defined **Release candidate** threshold for fresh-session evaluation evidence:
 
 - Static product validation passes.
 - 9 regression scenarios passed in fresh sessions.
 - 6 full-text-informed real-material smoke tests passed in fresh sessions.
 - No release blocker was observed.
 
-The 15-case count and 5-field breadth threshold are now met. It is not Mature yet because the three required non-author user or reviewer cases are not verified.
+The 15-case count and 5-field breadth threshold are met here. The later Mature evidence ledger adds three public external reviewer records and is checked by `scripts/validate-mature.ps1`.

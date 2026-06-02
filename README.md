@@ -219,10 +219,11 @@ git clone https://github.com/Rimagination/good-story.git ~/.claude/skills/good-s
 - [真实材料快速验收测试](evals/real-material-smoke-tests.md)：用基于全文阅读的转述材料检查生态、遥感、AI4Science、社会科学和生物医学真实公开来源。
 - [当前评测基线](evals/baseline-2026-06-02.md)：记录 9 个场景的手工干跑结果和剩余风险。
 - [新鲜会话实测记录](evals/fresh-session-run-2026-06-02.md)：记录 9 个评测场景和 6 个真实材料快速验收测试的 fresh-session 结果。
-- [成熟度审计](evals/maturity-audit-2026-06-02.md)：说明当前能发布到什么程度，以及离 Release candidate 和 Mature 还差哪些证据。
-- [Mature 证据台账](evals/mature-evidence-2026-06-02.md)：记录 15 个案例计数和仍缺的外部用户/评审者证据。
+- [成熟度审计](evals/maturity-audit-2026-06-02.md)：说明当前 Mature 证据门槛和公开发布门槛。
+- [Mature 证据台账](evals/mature-evidence-2026-06-02.md)：记录 15 个以上案例计数和外部评审者证据。
+- [公开外部反馈案例](evals/public-external-feedback-cases.md)：记录 3 份公开同行评审/作者回复证据。
 
-当前状态是 Release candidate（发布候选）：静态产品校验通过，9 个评测场景和 6 个跨领域真实材料快速验收测试已在 fresh sessions 中通过。15 个案例和 5 个以上领域的门槛已经满足；它还不是 Mature，因为还缺 3 个经过验证的非作者用户或评审者案例。
+当前状态：Mature 证据门槛已满足，但公开发布还等 GitHub 仓库 URL 可访问。静态产品校验通过，9 个评测场景和 6 个跨领域真实材料快速验收测试已在 fresh sessions 中通过；另有 3 个公开外部评审案例补足非作者评审者证据。直接用户试用反馈仍然值得继续收集。
 
 可以运行这个静态检查脚本：[validate-product.ps1](scripts/validate-product.ps1)。
 
@@ -244,7 +245,7 @@ git clone https://github.com/Rimagination/good-story.git ~/.claude/skills/good-s
 
 - [FAQ](docs/FAQ.md)：回答“它是不是润色”“我是不是必须有完整稿子”“我的领域不在表里怎么办”等常见问题。
 - [输出格式](docs/OUTPUT_SPEC.md)：说明故事卡、领域校准、候选故事、图序和 rebuttal 输出应长什么样。
-- [路线图](docs/ROADMAP.md)：记录当前 Release candidate 状态，以及走向 Mature 还差哪些验证。
+- [路线图](docs/ROADMAP.md)：记录当前 Mature 证据门槛、公开发布门槛和后续用户反馈计划。
 
 ### 参与扩展
 
@@ -517,10 +518,11 @@ This is not just a prompt bundle. It turns scientific-writing advice from reliab
 - [Real material smoke tests](evals/real-material-smoke-tests.md): six full-text-informed paraphrased public-material cases across ecology, remote sensing, AI4Science, social science, biomedical research, and earth system science.
 - [Current baseline](evals/baseline-2026-06-02.md): manual dry-run results and remaining risks for the nine scenarios.
 - [Fresh-session run record](evals/fresh-session-run-2026-06-02.md): recorded fresh-session results for the nine evaluation scenarios and six real-material smoke tests.
-- [Maturity audit](evals/maturity-audit-2026-06-02.md): current publishability, Release candidate evidence, and Mature criteria.
-- [Mature evidence ledger](evals/mature-evidence-2026-06-02.md): counted 15-case evidence and the remaining external-user/reviewer gap.
+- [Maturity audit](evals/maturity-audit-2026-06-02.md): current Mature evidence gate and public-publication gate.
+- [Mature evidence ledger](evals/mature-evidence-2026-06-02.md): counted 15+ case evidence and external reviewer evidence.
+- [Public external feedback cases](evals/public-external-feedback-cases.md): three public peer-review/author-response records.
 
-Current status is Release candidate: static product validation passes, and nine evaluation scenarios plus six cross-domain real-material smoke tests passed in fresh sessions. It is not Mature yet; the 15-case and 5-field thresholds are met, but Mature still requires three verified non-author user or reviewer cases.
+Current status: the Mature evidence gate is satisfied, but public announcement still waits on the GitHub repository URL. Static product validation passes, nine evaluation scenarios plus six cross-domain real-material smoke tests passed in fresh sessions, and three public external reviewer records satisfy the non-author reviewer evidence threshold. Direct user-trial feedback remains worth collecting separately.
 
 Run the static product checks with [validate-product.ps1](scripts/validate-product.ps1):
 
@@ -542,7 +544,7 @@ For product-level release checks, see [RELEASE.md](RELEASE.md). It covers user e
 
 - [FAQ](docs/FAQ.md): common questions about use, scope, languages, and failure modes.
 - [Output spec](docs/OUTPUT_SPEC.md): expected story card, field calibration, candidate story, figure-order, and rebuttal formats.
-- [Roadmap](docs/ROADMAP.md): current Release candidate status and what remains before Mature.
+- [Roadmap](docs/ROADMAP.md): current Mature evidence gate, public-publication gate, and follow-up user-feedback plan.
 
 ### Contributing
 
