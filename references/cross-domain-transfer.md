@@ -68,6 +68,7 @@ Then use the same four moves:
 | Materials science | Material system, structure-property relation, synthesis route | Stability, scalability, reproducibility, mechanism | Characterization, performance test, degradation study, mechanistic model | Treating lab performance as deployable performance without durability or scale evidence |
 | Geoscience | Process, archive, hazard, Earth-system component | Sparse observation, scale mismatch, temporal uncertainty, model uncertainty | Proxy record, remote sensing, field constraint, simulation, attribution analysis | Treating a model-compatible explanation as settled attribution |
 | Humanities | Concept, archive, text, artifact, practice, interpretive tradition | Competing interpretation, limited archive, anachronism, source bias | Close reading, archival synthesis, comparative interpretation, new corpus, conceptual reconstruction | Treating a persuasive reading as exhaustive proof or erasing alternative interpretations |
+| Mining engineering / rock mechanics | Rock or coal specimen under water infiltration or cyclic loading | Scale gap (lab cm → field m), material heterogeneity, multi-physics coupling (hydro-mechanical), single-evidence ambiguity | Multi-modal triangulation: mechanical (stress-strain) → acoustic (AE) → visual (DIC/SEM), with explicit turning point showing deviation from single-mechanism expectation | Claiming field design prescriptions from lab evidence, or mechanism from single evidence type without triangulation |
 
 ## Starter Field Adapters
 
@@ -107,6 +108,16 @@ The adapters below are examples, not a closed list. They show how people from di
 - Typical story turn: a mechanism explains disease heterogeneity, a biomarker stratifies risk or response, an intervention changes a clinically meaningful endpoint, or an omics signal becomes validated biology.
 - Legitimate consequence: mechanism, diagnosis, prognosis, target validation, patient stratification, therapeutic path, safety insight, or trial design.
 - Main guardrail: do not jump from association to causation, from surrogate endpoint to patient benefit, or from animal or cell models to clinical efficacy without translation evidence.
+
+### Mining engineering and rock mechanics adapter / 矿业工程与煤岩力学
+
+*Calibrated from 11 published papers (EFA × 6, TAFM × 5). See `references/mining-adapter-full.md` for complete evidence base.*
+
+- **Domain contract**: Stories must connect lab-scale evidence (cm specimens) to a mechanism or parameter relationship that a reader can evaluate for field relevance. AE, DIC, and stress-strain data are valid only when triangulated — mechanical evidence licenses acoustic claims; acoustic evidence licenses visual interpretations; never invert this order. Target journals (RMRE, IJRMMS, IJMST) expect ≥2 independent evidence types per mechanism claim. Gap framing must be specific to compound/coupled conditions, not merely "X is unknown."
+- **Typical story turn**: deviation from a single-mechanism expectation — non-linearity where linearity was assumed, failure localisation where uniform distribution was expected, temporal mismatch between acoustic and visual signals, or interaction effects dominating over additive ones. The turning point legitimates the multi-modal approach.
+- **Legitimate consequence**: mechanism description (cause-effect at lab scale), quantitative parameter relationship (for tested conditions), failure pattern classification, or safety-critical observation. Stop here. Do not prescribe design actions.
+- **Claim verb standard**: "indicates" is universal across 11 papers. Use "suggests" for correlations without mechanism, "demonstrates" only with clear quantitative evidence, never "proves." Always pair with softening language for implications: "may," "could," "suggests the need for."
+- **Main guardrail**: do not cross the lab→field boundary without explicit hedging; do not use a single evidence type for mechanism claims; do not skip the turning point (confirming existing knowledge is not a story); do not prescribe engineering actions ("requires," "must be") from lab results.
 
 ## Building A New Calibration Pack
 
